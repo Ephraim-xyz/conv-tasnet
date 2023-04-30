@@ -1,0 +1,969 @@
+nohup: ignoring input
+2020-02-26 14:20:28 [./options/option.py:13 - INFO ] Reading .yml file .......
+2020-02-26 14:20:28 [./options/option.py:19 - INFO ] Export CUDA_VISIBLE_DEVICES = 0,1,2,3,4
+2020-02-26 14:20:28 [train.py:20 - INFO ] Building the model of Conv-TasNet
+2020-02-26 14:20:28 [train.py:23 - INFO ] Building the trainer of Conv-TasNet
+2020-02-26 14:20:37 [/home/likai/data1/Conv-TasNet/trainer.py:140 - INFO ] Create optimizer adam: {'lr': 0.001, 'weight_decay': 1e-05}
+2020-02-26 14:20:37 [/home/likai/data1/Conv-TasNet/trainer.py:110 - INFO ] Starting preparing model ............
+2020-02-26 14:20:37 [/home/likai/data1/Conv-TasNet/trainer.py:112 - INFO ] Loading model to GPUs:(0, 1, 2, 3, 4), #param: 5.05M
+2020-02-26 14:20:37 [/home/likai/data1/Conv-TasNet/trainer.py:117 - INFO ] Gradient clipping by 200, default L2
+2020-02-26 14:20:37 [train.py:28 - INFO ] Making the train and test data loader
+2020-02-26 14:20:39 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 14:21:35 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  0, iter:200, lr:1.000e-03, loss:20.202, batch:200 utterances> 
+2020-02-26 14:22:05 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  0, lr:1.000e-03, loss:20.200, Total time:1.429 min> 
+2020-02-26 14:22:05 [/home/likai/data1/Conv-TasNet/trainer.py:226 - INFO ] Starting epoch from 0, loss = 20.2000
+2020-02-26 14:22:05 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 14:24:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:200, lr:1.000e-03, loss:0.233, batch:200 utterances> 
+2020-02-26 14:26:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:400, lr:1.000e-03, loss:-1.816, batch:400 utterances> 
+2020-02-26 14:28:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:600, lr:1.000e-03, loss:-3.545, batch:600 utterances> 
+2020-02-26 14:30:39 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:800, lr:1.000e-03, loss:-4.468, batch:800 utterances> 
+2020-02-26 14:32:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:1000, lr:1.000e-03, loss:-5.219, batch:1000 utterances> 
+2020-02-26 14:34:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  1, iter:1200, lr:1.000e-03, loss:-5.789, batch:1200 utterances> 
+2020-02-26 14:36:49 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  1, lr:1.000e-03, loss:-3.827, Total time:14.733 min> 
+2020-02-26 14:36:49 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 14:37:31 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  1, iter:200, lr:1.000e-03, loss:-6.681, batch:200 utterances> 
+2020-02-26 14:38:01 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  1, lr:1.000e-03, loss:-6.714, Total time:1.204 min> 
+2020-02-26 14:38:07 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 1, now best loss change: -6.7137
+2020-02-26 14:38:12 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 14:40:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:200, lr:1.000e-03, loss:-7.015, batch:200 utterances> 
+2020-02-26 14:42:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:400, lr:1.000e-03, loss:-7.593, batch:400 utterances> 
+2020-02-26 14:44:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:600, lr:1.000e-03, loss:-7.855, batch:600 utterances> 
+2020-02-26 14:47:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:800, lr:1.000e-03, loss:-8.113, batch:800 utterances> 
+2020-02-26 14:49:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:1000, lr:1.000e-03, loss:-8.623, batch:1000 utterances> 
+2020-02-26 14:51:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  2, iter:1200, lr:1.000e-03, loss:-8.798, batch:1200 utterances> 
+2020-02-26 14:53:23 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  2, lr:1.000e-03, loss:-8.092, Total time:15.181 min> 
+2020-02-26 14:53:23 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 14:54:05 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  2, iter:200, lr:1.000e-03, loss:-9.264, batch:200 utterances> 
+2020-02-26 14:54:36 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  2, lr:1.000e-03, loss:-9.126, Total time:1.212 min> 
+2020-02-26 14:54:41 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 2, now best loss change: -9.1261
+2020-02-26 14:54:46 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 14:57:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:200, lr:1.000e-03, loss:-9.188, batch:200 utterances> 
+2020-02-26 14:59:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:400, lr:1.000e-03, loss:-9.479, batch:400 utterances> 
+2020-02-26 15:01:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:600, lr:1.000e-03, loss:-9.488, batch:600 utterances> 
+2020-02-26 15:03:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:800, lr:1.000e-03, loss:-9.712, batch:800 utterances> 
+2020-02-26 15:05:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:1000, lr:1.000e-03, loss:-9.754, batch:1000 utterances> 
+2020-02-26 15:08:02 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  3, iter:1200, lr:1.000e-03, loss:-9.774, batch:1200 utterances> 
+2020-02-26 15:10:07 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  3, lr:1.000e-03, loss:-9.642, Total time:15.337 min> 
+2020-02-26 15:10:07 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 15:10:51 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  3, iter:200, lr:1.000e-03, loss:-10.141, batch:200 utterances> 
+2020-02-26 15:11:25 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  3, lr:1.000e-03, loss:-10.182, Total time:1.300 min> 
+2020-02-26 15:11:30 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 3, now best loss change: -10.1816
+2020-02-26 15:11:35 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 15:13:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:200, lr:1.000e-03, loss:-10.276, batch:200 utterances> 
+2020-02-26 15:16:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:400, lr:1.000e-03, loss:-10.284, batch:400 utterances> 
+2020-02-26 15:18:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:600, lr:1.000e-03, loss:-10.451, batch:600 utterances> 
+2020-02-26 15:20:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:800, lr:1.000e-03, loss:-10.596, batch:800 utterances> 
+2020-02-26 15:22:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:1000, lr:1.000e-03, loss:-10.559, batch:1000 utterances> 
+2020-02-26 15:25:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  4, iter:1200, lr:1.000e-03, loss:-10.493, batch:1200 utterances> 
+2020-02-26 15:27:12 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  4, lr:1.000e-03, loss:-10.473, Total time:15.616 min> 
+2020-02-26 15:27:12 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 15:27:56 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  4, iter:200, lr:1.000e-03, loss:-10.710, batch:200 utterances> 
+2020-02-26 15:28:29 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  4, lr:1.000e-03, loss:-10.717, Total time:1.283 min> 
+2020-02-26 15:28:34 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 4, now best loss change: -10.7167
+2020-02-26 15:28:40 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 15:30:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:200, lr:1.000e-03, loss:-11.057, batch:200 utterances> 
+2020-02-26 15:33:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:400, lr:1.000e-03, loss:-10.981, batch:400 utterances> 
+2020-02-26 15:35:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:600, lr:1.000e-03, loss:-11.058, batch:600 utterances> 
+2020-02-26 15:37:43 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:800, lr:1.000e-03, loss:-11.037, batch:800 utterances> 
+2020-02-26 15:39:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:1000, lr:1.000e-03, loss:-10.901, batch:1000 utterances> 
+2020-02-26 15:42:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  5, iter:1200, lr:1.000e-03, loss:-11.036, batch:1200 utterances> 
+2020-02-26 15:44:19 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  5, lr:1.000e-03, loss:-11.038, Total time:15.648 min> 
+2020-02-26 15:44:19 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 15:45:03 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  5, iter:200, lr:1.000e-03, loss:-11.175, batch:200 utterances> 
+2020-02-26 15:45:35 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  5, lr:1.000e-03, loss:-11.255, Total time:1.272 min> 
+2020-02-26 15:45:40 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 5, now best loss change: -11.2552
+2020-02-26 15:45:46 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 15:48:02 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:200, lr:1.000e-03, loss:-11.365, batch:200 utterances> 
+2020-02-26 15:50:17 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:400, lr:1.000e-03, loss:-11.391, batch:400 utterances> 
+2020-02-26 15:52:32 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:600, lr:1.000e-03, loss:-11.475, batch:600 utterances> 
+2020-02-26 15:54:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:800, lr:1.000e-03, loss:-11.538, batch:800 utterances> 
+2020-02-26 15:57:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:1000, lr:1.000e-03, loss:-11.532, batch:1000 utterances> 
+2020-02-26 15:59:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  6, iter:1200, lr:1.000e-03, loss:-11.496, batch:1200 utterances> 
+2020-02-26 16:01:24 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  6, lr:1.000e-03, loss:-11.484, Total time:15.640 min> 
+2020-02-26 16:01:24 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 16:02:08 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  6, iter:200, lr:1.000e-03, loss:-11.336, batch:200 utterances> 
+2020-02-26 16:02:41 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  6, lr:1.000e-03, loss:-11.405, Total time:1.287 min> 
+2020-02-26 16:02:47 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 6, now best loss change: -11.4045
+2020-02-26 16:02:52 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 16:05:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:200, lr:1.000e-03, loss:-11.805, batch:200 utterances> 
+2020-02-26 16:07:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:400, lr:1.000e-03, loss:-11.609, batch:400 utterances> 
+2020-02-26 16:09:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:600, lr:1.000e-03, loss:-11.851, batch:600 utterances> 
+2020-02-26 16:11:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:800, lr:1.000e-03, loss:-11.793, batch:800 utterances> 
+2020-02-26 16:14:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:1000, lr:1.000e-03, loss:-11.825, batch:1000 utterances> 
+2020-02-26 16:16:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  7, iter:1200, lr:1.000e-03, loss:-11.768, batch:1200 utterances> 
+2020-02-26 16:18:22 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  7, lr:1.000e-03, loss:-11.781, Total time:15.509 min> 
+2020-02-26 16:18:22 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 16:19:03 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  7, iter:200, lr:1.000e-03, loss:-11.855, batch:200 utterances> 
+2020-02-26 16:19:34 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  7, lr:1.000e-03, loss:-11.883, Total time:1.191 min> 
+2020-02-26 16:19:39 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 7, now best loss change: -11.8830
+2020-02-26 16:19:45 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 16:21:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:200, lr:1.000e-03, loss:-12.035, batch:200 utterances> 
+2020-02-26 16:24:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:400, lr:1.000e-03, loss:-12.012, batch:400 utterances> 
+2020-02-26 16:26:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:600, lr:1.000e-03, loss:-12.181, batch:600 utterances> 
+2020-02-26 16:28:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:800, lr:1.000e-03, loss:-12.107, batch:800 utterances> 
+2020-02-26 16:30:54 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:1000, lr:1.000e-03, loss:-12.081, batch:1000 utterances> 
+2020-02-26 16:33:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  8, iter:1200, lr:1.000e-03, loss:-12.177, batch:1200 utterances> 
+2020-02-26 16:35:14 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  8, lr:1.000e-03, loss:-12.095, Total time:15.490 min> 
+2020-02-26 16:35:14 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 16:35:59 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  8, iter:200, lr:1.000e-03, loss:-12.008, batch:200 utterances> 
+2020-02-26 16:36:32 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  8, lr:1.000e-03, loss:-12.072, Total time:1.303 min> 
+2020-02-26 16:36:38 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 8, now best loss change: -12.0720
+2020-02-26 16:36:43 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 16:39:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:200, lr:1.000e-03, loss:-12.225, batch:200 utterances> 
+2020-02-26 16:41:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:400, lr:1.000e-03, loss:-12.329, batch:400 utterances> 
+2020-02-26 16:43:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:600, lr:1.000e-03, loss:-12.346, batch:600 utterances> 
+2020-02-26 16:45:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:800, lr:1.000e-03, loss:-12.308, batch:800 utterances> 
+2020-02-26 16:47:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:1000, lr:1.000e-03, loss:-12.240, batch:1000 utterances> 
+2020-02-26 16:50:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch:  9, iter:1200, lr:1.000e-03, loss:-12.312, batch:1200 utterances> 
+2020-02-26 16:52:21 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch:  9, lr:1.000e-03, loss:-12.305, Total time:15.636 min> 
+2020-02-26 16:52:21 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 16:53:06 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch:  9, iter:200, lr:1.000e-03, loss:-12.219, batch:200 utterances> 
+2020-02-26 16:53:39 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch:  9, lr:1.000e-03, loss:-12.271, Total time:1.298 min> 
+2020-02-26 16:53:44 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 9, now best loss change: -12.2707
+2020-02-26 16:53:50 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 16:56:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:200, lr:1.000e-03, loss:-12.602, batch:200 utterances> 
+2020-02-26 16:58:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:400, lr:1.000e-03, loss:-12.603, batch:400 utterances> 
+2020-02-26 17:00:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:600, lr:1.000e-03, loss:-12.584, batch:600 utterances> 
+2020-02-26 17:02:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:800, lr:1.000e-03, loss:-12.596, batch:800 utterances> 
+2020-02-26 17:05:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:1000, lr:1.000e-03, loss:-12.538, batch:1000 utterances> 
+2020-02-26 17:07:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 10, iter:1200, lr:1.000e-03, loss:-12.207, batch:1200 utterances> 
+2020-02-26 17:09:28 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 10, lr:1.000e-03, loss:-12.522, Total time:15.642 min> 
+2020-02-26 17:09:28 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 17:10:11 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 10, iter:200, lr:1.000e-03, loss:-12.295, batch:200 utterances> 
+2020-02-26 17:10:42 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 10, lr:1.000e-03, loss:-12.284, Total time:1.239 min> 
+2020-02-26 17:10:48 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 10, now best loss change: -12.2838
+2020-02-26 17:10:53 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 17:13:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:200, lr:1.000e-03, loss:-12.571, batch:200 utterances> 
+2020-02-26 17:15:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:400, lr:1.000e-03, loss:-12.694, batch:400 utterances> 
+2020-02-26 17:17:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:600, lr:1.000e-03, loss:-12.683, batch:600 utterances> 
+2020-02-26 17:19:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:800, lr:1.000e-03, loss:-12.515, batch:800 utterances> 
+2020-02-26 17:22:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:1000, lr:1.000e-03, loss:-12.679, batch:1000 utterances> 
+2020-02-26 17:24:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 11, iter:1200, lr:1.000e-03, loss:-12.854, batch:1200 utterances> 
+2020-02-26 17:26:21 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 11, lr:1.000e-03, loss:-12.659, Total time:15.469 min> 
+2020-02-26 17:26:21 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 17:27:04 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 11, iter:200, lr:1.000e-03, loss:-11.945, batch:200 utterances> 
+2020-02-26 17:27:36 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 11, lr:1.000e-03, loss:-12.035, Total time:1.241 min> 
+2020-02-26 17:27:36 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -12.2838
+2020-02-26 17:27:41 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 17:29:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:200, lr:1.000e-03, loss:-12.859, batch:200 utterances> 
+2020-02-26 17:32:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:400, lr:1.000e-03, loss:-12.795, batch:400 utterances> 
+2020-02-26 17:34:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:600, lr:1.000e-03, loss:-12.959, batch:600 utterances> 
+2020-02-26 17:36:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:800, lr:1.000e-03, loss:-12.626, batch:800 utterances> 
+2020-02-26 17:38:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:1000, lr:1.000e-03, loss:-12.737, batch:1000 utterances> 
+2020-02-26 17:41:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 12, iter:1200, lr:1.000e-03, loss:-12.819, batch:1200 utterances> 
+2020-02-26 17:43:08 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 12, lr:1.000e-03, loss:-12.798, Total time:15.453 min> 
+2020-02-26 17:43:08 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 17:43:53 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 12, iter:200, lr:1.000e-03, loss:-12.430, batch:200 utterances> 
+2020-02-26 17:44:25 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 12, lr:1.000e-03, loss:-12.411, Total time:1.284 min> 
+2020-02-26 17:44:31 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 12, now best loss change: -12.4112
+2020-02-26 17:44:36 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 17:46:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:200, lr:1.000e-03, loss:-12.936, batch:200 utterances> 
+2020-02-26 17:48:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:400, lr:1.000e-03, loss:-12.855, batch:400 utterances> 
+2020-02-26 17:51:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:600, lr:1.000e-03, loss:-12.828, batch:600 utterances> 
+2020-02-26 17:53:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:800, lr:1.000e-03, loss:-13.007, batch:800 utterances> 
+2020-02-26 17:55:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:1000, lr:1.000e-03, loss:-13.082, batch:1000 utterances> 
+2020-02-26 17:57:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 13, iter:1200, lr:1.000e-03, loss:-12.844, batch:1200 utterances> 
+2020-02-26 17:59:53 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 13, lr:1.000e-03, loss:-12.905, Total time:15.276 min> 
+2020-02-26 17:59:53 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 18:00:37 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 13, iter:200, lr:1.000e-03, loss:-12.756, batch:200 utterances> 
+2020-02-26 18:01:10 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 13, lr:1.000e-03, loss:-12.773, Total time:1.292 min> 
+2020-02-26 18:01:15 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 13, now best loss change: -12.7734
+2020-02-26 18:01:21 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 18:03:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:200, lr:1.000e-03, loss:-13.244, batch:200 utterances> 
+2020-02-26 18:05:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:400, lr:1.000e-03, loss:-13.098, batch:400 utterances> 
+2020-02-26 18:08:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:600, lr:1.000e-03, loss:-12.981, batch:600 utterances> 
+2020-02-26 18:10:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:800, lr:1.000e-03, loss:-12.831, batch:800 utterances> 
+2020-02-26 18:12:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:1000, lr:1.000e-03, loss:-12.889, batch:1000 utterances> 
+2020-02-26 18:14:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 14, iter:1200, lr:1.000e-03, loss:-13.066, batch:1200 utterances> 
+2020-02-26 18:16:57 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 14, lr:1.000e-03, loss:-13.022, Total time:15.600 min> 
+2020-02-26 18:16:57 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 18:17:38 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 14, iter:200, lr:1.000e-03, loss:-12.748, batch:200 utterances> 
+2020-02-26 18:18:09 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 14, lr:1.000e-03, loss:-12.838, Total time:1.202 min> 
+2020-02-26 18:18:14 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 14, now best loss change: -12.8380
+2020-02-26 18:18:19 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 18:20:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:200, lr:1.000e-03, loss:-13.104, batch:200 utterances> 
+2020-02-26 18:22:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:400, lr:1.000e-03, loss:-13.193, batch:400 utterances> 
+2020-02-26 18:24:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:600, lr:1.000e-03, loss:-13.384, batch:600 utterances> 
+2020-02-26 18:27:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:800, lr:1.000e-03, loss:-13.185, batch:800 utterances> 
+2020-02-26 18:29:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:1000, lr:1.000e-03, loss:-13.246, batch:1000 utterances> 
+2020-02-26 18:31:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 15, iter:1200, lr:1.000e-03, loss:-13.194, batch:1200 utterances> 
+2020-02-26 18:33:37 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 15, lr:1.000e-03, loss:-13.202, Total time:15.286 min> 
+2020-02-26 18:33:37 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 18:34:21 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 15, iter:200, lr:1.000e-03, loss:-12.993, batch:200 utterances> 
+2020-02-26 18:34:53 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 15, lr:1.000e-03, loss:-12.988, Total time:1.280 min> 
+2020-02-26 18:34:59 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 15, now best loss change: -12.9879
+2020-02-26 18:35:04 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 18:37:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:200, lr:1.000e-03, loss:-13.335, batch:200 utterances> 
+2020-02-26 18:39:28 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:400, lr:1.000e-03, loss:-13.370, batch:400 utterances> 
+2020-02-26 18:41:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:600, lr:1.000e-03, loss:-13.134, batch:600 utterances> 
+2020-02-26 18:43:43 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:800, lr:1.000e-03, loss:-13.410, batch:800 utterances> 
+2020-02-26 18:45:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:1000, lr:1.000e-03, loss:-13.076, batch:1000 utterances> 
+2020-02-26 18:48:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 16, iter:1200, lr:1.000e-03, loss:-13.106, batch:1200 utterances> 
+2020-02-26 18:50:08 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 16, lr:1.000e-03, loss:-13.270, Total time:15.060 min> 
+2020-02-26 18:50:08 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 18:50:52 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 16, iter:200, lr:1.000e-03, loss:-12.733, batch:200 utterances> 
+2020-02-26 18:51:24 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 16, lr:1.000e-03, loss:-12.758, Total time:1.274 min> 
+2020-02-26 18:51:24 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -12.9879
+2020-02-26 18:51:29 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 18:53:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:200, lr:1.000e-03, loss:-13.366, batch:200 utterances> 
+2020-02-26 18:55:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:400, lr:1.000e-03, loss:-13.235, batch:400 utterances> 
+2020-02-26 18:58:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:600, lr:1.000e-03, loss:-13.638, batch:600 utterances> 
+2020-02-26 19:00:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:800, lr:1.000e-03, loss:-13.422, batch:800 utterances> 
+2020-02-26 19:02:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:1000, lr:1.000e-03, loss:-13.137, batch:1000 utterances> 
+2020-02-26 19:04:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 17, iter:1200, lr:1.000e-03, loss:-13.263, batch:1200 utterances> 
+2020-02-26 19:06:33 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 17, lr:1.000e-03, loss:-13.387, Total time:15.054 min> 
+2020-02-26 19:06:33 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 19:07:13 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 17, iter:200, lr:1.000e-03, loss:-12.967, batch:200 utterances> 
+2020-02-26 19:07:45 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 17, lr:1.000e-03, loss:-12.997, Total time:1.207 min> 
+2020-02-26 19:07:50 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 17, now best loss change: -12.9972
+2020-02-26 19:07:56 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 19:10:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:200, lr:1.000e-03, loss:-13.568, batch:200 utterances> 
+2020-02-26 19:12:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:400, lr:1.000e-03, loss:-13.653, batch:400 utterances> 
+2020-02-26 19:14:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:600, lr:1.000e-03, loss:-13.639, batch:600 utterances> 
+2020-02-26 19:16:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:800, lr:1.000e-03, loss:-13.314, batch:800 utterances> 
+2020-02-26 19:18:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:1000, lr:1.000e-03, loss:-13.225, batch:1000 utterances> 
+2020-02-26 19:20:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 18, iter:1200, lr:1.000e-03, loss:-13.482, batch:1200 utterances> 
+2020-02-26 19:23:04 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 18, lr:1.000e-03, loss:-13.461, Total time:15.137 min> 
+2020-02-26 19:23:04 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 19:23:49 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 18, iter:200, lr:1.000e-03, loss:-12.833, batch:200 utterances> 
+2020-02-26 19:24:21 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 18, lr:1.000e-03, loss:-12.808, Total time:1.282 min> 
+2020-02-26 19:24:21 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -12.9972
+2020-02-26 19:24:27 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 19:26:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:200, lr:1.000e-03, loss:-13.484, batch:200 utterances> 
+2020-02-26 19:28:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:400, lr:1.000e-03, loss:-13.553, batch:400 utterances> 
+2020-02-26 19:31:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:600, lr:1.000e-03, loss:-13.226, batch:600 utterances> 
+2020-02-26 19:33:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:800, lr:1.000e-03, loss:-13.371, batch:800 utterances> 
+2020-02-26 19:35:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:1000, lr:1.000e-03, loss:-13.613, batch:1000 utterances> 
+2020-02-26 19:37:55 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 19, iter:1200, lr:1.000e-03, loss:-13.675, batch:1200 utterances> 
+2020-02-26 19:39:59 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 19, lr:1.000e-03, loss:-13.489, Total time:15.547 min> 
+2020-02-26 19:39:59 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 19:40:43 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 19, iter:200, lr:1.000e-03, loss:-13.145, batch:200 utterances> 
+2020-02-26 19:41:15 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 19, lr:1.000e-03, loss:-13.149, Total time:1.267 min> 
+2020-02-26 19:41:21 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 19, now best loss change: -13.1488
+2020-02-26 19:41:26 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 19:43:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:200, lr:1.000e-03, loss:-13.670, batch:200 utterances> 
+2020-02-26 19:45:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:400, lr:1.000e-03, loss:-13.714, batch:400 utterances> 
+2020-02-26 19:48:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:600, lr:1.000e-03, loss:-13.681, batch:600 utterances> 
+2020-02-26 19:50:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:800, lr:1.000e-03, loss:-13.410, batch:800 utterances> 
+2020-02-26 19:52:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:1000, lr:1.000e-03, loss:-13.657, batch:1000 utterances> 
+2020-02-26 19:54:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 20, iter:1200, lr:1.000e-03, loss:-13.681, batch:1200 utterances> 
+2020-02-26 19:57:02 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 20, lr:1.000e-03, loss:-13.627, Total time:15.595 min> 
+2020-02-26 19:57:02 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 19:57:46 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 20, iter:200, lr:1.000e-03, loss:-13.087, batch:200 utterances> 
+2020-02-26 19:58:19 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 20, lr:1.000e-03, loss:-13.141, Total time:1.291 min> 
+2020-02-26 19:58:19 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -13.1488
+2020-02-26 19:58:25 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 20:00:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:200, lr:1.000e-03, loss:-13.450, batch:200 utterances> 
+2020-02-26 20:02:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:400, lr:1.000e-03, loss:-13.699, batch:400 utterances> 
+2020-02-26 20:05:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:600, lr:1.000e-03, loss:-13.643, batch:600 utterances> 
+2020-02-26 20:07:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:800, lr:1.000e-03, loss:-13.473, batch:800 utterances> 
+2020-02-26 20:09:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:1000, lr:1.000e-03, loss:-13.667, batch:1000 utterances> 
+2020-02-26 20:11:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 21, iter:1200, lr:1.000e-03, loss:-13.812, batch:1200 utterances> 
+2020-02-26 20:14:01 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 21, lr:1.000e-03, loss:-13.617, Total time:15.610 min> 
+2020-02-26 20:14:01 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 20:14:46 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 21, iter:200, lr:1.000e-03, loss:-13.310, batch:200 utterances> 
+2020-02-26 20:15:18 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 21, lr:1.000e-03, loss:-13.368, Total time:1.287 min> 
+2020-02-26 20:15:24 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 21, now best loss change: -13.3678
+2020-02-26 20:15:29 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 20:17:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:200, lr:1.000e-03, loss:-14.128, batch:200 utterances> 
+2020-02-26 20:20:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:400, lr:1.000e-03, loss:-13.378, batch:400 utterances> 
+2020-02-26 20:22:17 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:600, lr:1.000e-03, loss:-13.900, batch:600 utterances> 
+2020-02-26 20:24:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:800, lr:1.000e-03, loss:-13.784, batch:800 utterances> 
+2020-02-26 20:26:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:1000, lr:1.000e-03, loss:-13.169, batch:1000 utterances> 
+2020-02-26 20:29:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 22, iter:1200, lr:1.000e-03, loss:-13.318, batch:1200 utterances> 
+2020-02-26 20:31:10 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 22, lr:1.000e-03, loss:-13.650, Total time:15.685 min> 
+2020-02-26 20:31:10 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 20:31:55 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 22, iter:200, lr:1.000e-03, loss:-13.176, batch:200 utterances> 
+2020-02-26 20:32:28 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 22, lr:1.000e-03, loss:-13.185, Total time:1.292 min> 
+2020-02-26 20:32:28 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -13.3678
+2020-02-26 20:32:33 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 20:34:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:200, lr:1.000e-03, loss:-13.778, batch:200 utterances> 
+2020-02-26 20:37:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:400, lr:1.000e-03, loss:-13.923, batch:400 utterances> 
+2020-02-26 20:39:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:600, lr:1.000e-03, loss:-13.983, batch:600 utterances> 
+2020-02-26 20:41:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:800, lr:1.000e-03, loss:-13.828, batch:800 utterances> 
+2020-02-26 20:43:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:1000, lr:1.000e-03, loss:-13.963, batch:1000 utterances> 
+2020-02-26 20:46:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 23, iter:1200, lr:1.000e-03, loss:-14.060, batch:1200 utterances> 
+2020-02-26 20:48:08 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 23, lr:1.000e-03, loss:-13.880, Total time:15.587 min> 
+2020-02-26 20:48:08 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 20:48:53 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 23, iter:200, lr:1.000e-03, loss:-13.212, batch:200 utterances> 
+2020-02-26 20:49:26 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 23, lr:1.000e-03, loss:-13.167, Total time:1.293 min> 
+2020-02-26 20:49:26 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -13.3678
+2020-02-26 20:49:31 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 20:51:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:200, lr:1.000e-03, loss:-13.564, batch:200 utterances> 
+2020-02-26 20:53:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:400, lr:1.000e-03, loss:-13.784, batch:400 utterances> 
+2020-02-26 20:56:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:600, lr:1.000e-03, loss:-14.028, batch:600 utterances> 
+2020-02-26 20:58:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:800, lr:1.000e-03, loss:-14.022, batch:800 utterances> 
+2020-02-26 21:00:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:1000, lr:1.000e-03, loss:-13.991, batch:1000 utterances> 
+2020-02-26 21:02:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 24, iter:1200, lr:1.000e-03, loss:-14.016, batch:1200 utterances> 
+2020-02-26 21:05:00 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 24, lr:1.000e-03, loss:-13.891, Total time:15.489 min> 
+2020-02-26 21:05:00 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 21:05:45 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 24, iter:200, lr:1.000e-03, loss:-13.207, batch:200 utterances> 
+2020-02-26 21:06:17 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 24, lr:1.000e-03, loss:-13.273, Total time:1.273 min> 
+2020-02-26 21:06:17 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -13.3678
+Epoch    24: reducing learning rate of group 0 to 5.0000e-04.
+2020-02-26 21:06:22 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 21:08:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:200, lr:5.000e-04, loss:-14.340, batch:200 utterances> 
+2020-02-26 21:10:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:400, lr:5.000e-04, loss:-14.060, batch:400 utterances> 
+2020-02-26 21:12:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:600, lr:5.000e-04, loss:-14.283, batch:600 utterances> 
+2020-02-26 21:15:10 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:800, lr:5.000e-04, loss:-14.500, batch:800 utterances> 
+2020-02-26 21:17:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:1000, lr:5.000e-04, loss:-14.447, batch:1000 utterances> 
+2020-02-26 21:19:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 25, iter:1200, lr:5.000e-04, loss:-14.496, batch:1200 utterances> 
+2020-02-26 21:21:42 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 25, lr:5.000e-04, loss:-14.353, Total time:15.324 min> 
+2020-02-26 21:21:42 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 21:22:24 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 25, iter:200, lr:5.000e-04, loss:-13.146, batch:200 utterances> 
+2020-02-26 21:22:56 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 25, lr:5.000e-04, loss:-13.065, Total time:1.240 min> 
+2020-02-26 21:22:56 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -13.3678
+2020-02-26 21:23:01 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 21:25:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:200, lr:5.000e-04, loss:-14.218, batch:200 utterances> 
+2020-02-26 21:27:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:400, lr:5.000e-04, loss:-14.623, batch:400 utterances> 
+2020-02-26 21:29:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:600, lr:5.000e-04, loss:-14.537, batch:600 utterances> 
+2020-02-26 21:31:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:800, lr:5.000e-04, loss:-14.652, batch:800 utterances> 
+2020-02-26 21:34:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:1000, lr:5.000e-04, loss:-14.431, batch:1000 utterances> 
+2020-02-26 21:36:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 26, iter:1200, lr:5.000e-04, loss:-14.572, batch:1200 utterances> 
+2020-02-26 21:38:29 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 26, lr:5.000e-04, loss:-14.441, Total time:15.468 min> 
+2020-02-26 21:38:29 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 21:39:12 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 26, iter:200, lr:5.000e-04, loss:-13.870, batch:200 utterances> 
+2020-02-26 21:39:44 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 26, lr:5.000e-04, loss:-13.825, Total time:1.235 min> 
+2020-02-26 21:39:49 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 26, now best loss change: -13.8255
+2020-02-26 21:39:54 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 21:42:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:200, lr:5.000e-04, loss:-14.078, batch:200 utterances> 
+2020-02-26 21:44:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:400, lr:5.000e-04, loss:-13.799, batch:400 utterances> 
+2020-02-26 21:46:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:600, lr:5.000e-04, loss:-13.917, batch:600 utterances> 
+2020-02-26 21:48:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:800, lr:5.000e-04, loss:-14.236, batch:800 utterances> 
+2020-02-26 21:51:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:1000, lr:5.000e-04, loss:-14.438, batch:1000 utterances> 
+2020-02-26 21:53:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 27, iter:1200, lr:5.000e-04, loss:-14.720, batch:1200 utterances> 
+2020-02-26 21:55:24 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 27, lr:5.000e-04, loss:-14.254, Total time:15.495 min> 
+2020-02-26 21:55:24 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 21:56:08 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 27, iter:200, lr:5.000e-04, loss:-14.137, batch:200 utterances> 
+2020-02-26 21:56:41 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 27, lr:5.000e-04, loss:-14.089, Total time:1.280 min> 
+2020-02-26 21:56:46 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 27, now best loss change: -14.0892
+2020-02-26 21:56:51 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 21:59:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:200, lr:5.000e-04, loss:-14.776, batch:200 utterances> 
+2020-02-26 22:01:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:400, lr:5.000e-04, loss:-14.850, batch:400 utterances> 
+2020-02-26 22:03:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:600, lr:5.000e-04, loss:-14.780, batch:600 utterances> 
+2020-02-26 22:05:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:800, lr:5.000e-04, loss:-14.755, batch:800 utterances> 
+2020-02-26 22:08:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:1000, lr:5.000e-04, loss:-14.519, batch:1000 utterances> 
+2020-02-26 22:10:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 28, iter:1200, lr:5.000e-04, loss:-14.513, batch:1200 utterances> 
+2020-02-26 22:12:44 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 28, lr:5.000e-04, loss:-14.682, Total time:15.873 min> 
+2020-02-26 22:12:44 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 22:13:28 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 28, iter:200, lr:5.000e-04, loss:-14.151, batch:200 utterances> 
+2020-02-26 22:14:01 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 28, lr:5.000e-04, loss:-14.118, Total time:1.286 min> 
+2020-02-26 22:14:06 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 28, now best loss change: -14.1179
+2020-02-26 22:14:12 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 22:16:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:200, lr:5.000e-04, loss:-14.707, batch:200 utterances> 
+2020-02-26 22:18:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:400, lr:5.000e-04, loss:-14.710, batch:400 utterances> 
+2020-02-26 22:21:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:600, lr:5.000e-04, loss:-14.847, batch:600 utterances> 
+2020-02-26 22:23:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:800, lr:5.000e-04, loss:-14.766, batch:800 utterances> 
+2020-02-26 22:25:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:1000, lr:5.000e-04, loss:-14.887, batch:1000 utterances> 
+2020-02-26 22:27:47 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 29, iter:1200, lr:5.000e-04, loss:-14.852, batch:1200 utterances> 
+2020-02-26 22:29:51 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 29, lr:5.000e-04, loss:-14.807, Total time:15.656 min> 
+2020-02-26 22:29:51 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 22:30:35 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 29, iter:200, lr:5.000e-04, loss:-14.291, batch:200 utterances> 
+2020-02-26 22:31:07 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 29, lr:5.000e-04, loss:-14.240, Total time:1.276 min> 
+2020-02-26 22:31:13 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 29, now best loss change: -14.2400
+2020-02-26 22:31:18 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 22:33:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:200, lr:5.000e-04, loss:-15.012, batch:200 utterances> 
+2020-02-26 22:35:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:400, lr:5.000e-04, loss:-14.915, batch:400 utterances> 
+2020-02-26 22:38:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:600, lr:5.000e-04, loss:-14.576, batch:600 utterances> 
+2020-02-26 22:40:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:800, lr:5.000e-04, loss:-14.918, batch:800 utterances> 
+2020-02-26 22:42:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:1000, lr:5.000e-04, loss:-14.461, batch:1000 utterances> 
+2020-02-26 22:44:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 30, iter:1200, lr:5.000e-04, loss:-14.338, batch:1200 utterances> 
+2020-02-26 22:46:56 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 30, lr:5.000e-04, loss:-14.725, Total time:15.639 min> 
+2020-02-26 22:46:56 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 22:47:41 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 30, iter:200, lr:5.000e-04, loss:-14.160, batch:200 utterances> 
+2020-02-26 22:48:14 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 30, lr:5.000e-04, loss:-14.204, Total time:1.286 min> 
+2020-02-26 22:48:14 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.2400
+2020-02-26 22:48:19 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 22:50:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:200, lr:5.000e-04, loss:-14.878, batch:200 utterances> 
+2020-02-26 22:52:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:400, lr:5.000e-04, loss:-14.510, batch:400 utterances> 
+2020-02-26 22:55:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:600, lr:5.000e-04, loss:-14.665, batch:600 utterances> 
+2020-02-26 22:57:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:800, lr:5.000e-04, loss:-14.978, batch:800 utterances> 
+2020-02-26 22:59:32 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:1000, lr:5.000e-04, loss:-14.929, batch:1000 utterances> 
+2020-02-26 23:01:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 31, iter:1200, lr:5.000e-04, loss:-14.956, batch:1200 utterances> 
+2020-02-26 23:03:50 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 31, lr:5.000e-04, loss:-14.822, Total time:15.521 min> 
+2020-02-26 23:03:50 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 23:04:35 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 31, iter:200, lr:5.000e-04, loss:-14.092, batch:200 utterances> 
+2020-02-26 23:05:08 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 31, lr:5.000e-04, loss:-14.078, Total time:1.292 min> 
+2020-02-26 23:05:08 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.2400
+2020-02-26 23:05:13 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 23:07:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:200, lr:5.000e-04, loss:-14.778, batch:200 utterances> 
+2020-02-26 23:09:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:400, lr:5.000e-04, loss:-14.671, batch:400 utterances> 
+2020-02-26 23:12:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:600, lr:5.000e-04, loss:-14.820, batch:600 utterances> 
+2020-02-26 23:14:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:800, lr:5.000e-04, loss:-14.871, batch:800 utterances> 
+2020-02-26 23:16:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:1000, lr:5.000e-04, loss:-14.840, batch:1000 utterances> 
+2020-02-26 23:18:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 32, iter:1200, lr:5.000e-04, loss:-14.835, batch:1200 utterances> 
+2020-02-26 23:20:40 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 32, lr:5.000e-04, loss:-14.799, Total time:15.453 min> 
+2020-02-26 23:20:40 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 23:21:21 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 32, iter:200, lr:5.000e-04, loss:-14.277, batch:200 utterances> 
+2020-02-26 23:21:52 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 32, lr:5.000e-04, loss:-14.289, Total time:1.197 min> 
+2020-02-26 23:21:57 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 32, now best loss change: -14.2891
+2020-02-26 23:22:03 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 23:24:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:200, lr:5.000e-04, loss:-15.017, batch:200 utterances> 
+2020-02-26 23:26:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:400, lr:5.000e-04, loss:-14.752, batch:400 utterances> 
+2020-02-26 23:28:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:600, lr:5.000e-04, loss:-14.739, batch:600 utterances> 
+2020-02-26 23:30:43 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:800, lr:5.000e-04, loss:-15.015, batch:800 utterances> 
+2020-02-26 23:32:54 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:1000, lr:5.000e-04, loss:-14.450, batch:1000 utterances> 
+2020-02-26 23:35:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 33, iter:1200, lr:5.000e-04, loss:-14.587, batch:1200 utterances> 
+2020-02-26 23:37:12 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 33, lr:5.000e-04, loss:-14.789, Total time:15.162 min> 
+2020-02-26 23:37:12 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 23:37:57 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 33, iter:200, lr:5.000e-04, loss:-14.263, batch:200 utterances> 
+2020-02-26 23:38:28 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 33, lr:5.000e-04, loss:-14.238, Total time:1.267 min> 
+2020-02-26 23:38:28 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.2891
+2020-02-26 23:38:34 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 23:40:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:200, lr:5.000e-04, loss:-15.040, batch:200 utterances> 
+2020-02-26 23:42:54 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:400, lr:5.000e-04, loss:-14.694, batch:400 utterances> 
+2020-02-26 23:45:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:600, lr:5.000e-04, loss:-14.896, batch:600 utterances> 
+2020-02-26 23:47:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:800, lr:5.000e-04, loss:-14.723, batch:800 utterances> 
+2020-02-26 23:49:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:1000, lr:5.000e-04, loss:-14.959, batch:1000 utterances> 
+2020-02-26 23:51:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 34, iter:1200, lr:5.000e-04, loss:-14.616, batch:1200 utterances> 
+2020-02-26 23:53:55 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 34, lr:5.000e-04, loss:-14.827, Total time:15.348 min> 
+2020-02-26 23:53:55 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-26 23:54:39 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 34, iter:200, lr:5.000e-04, loss:-14.244, batch:200 utterances> 
+2020-02-26 23:55:12 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 34, lr:5.000e-04, loss:-14.224, Total time:1.286 min> 
+2020-02-26 23:55:12 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.2891
+2020-02-26 23:55:17 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-26 23:57:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:200, lr:5.000e-04, loss:-15.020, batch:200 utterances> 
+2020-02-26 23:59:47 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:400, lr:5.000e-04, loss:-15.036, batch:400 utterances> 
+2020-02-27 00:02:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:600, lr:5.000e-04, loss:-15.135, batch:600 utterances> 
+2020-02-27 00:04:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:800, lr:5.000e-04, loss:-14.875, batch:800 utterances> 
+2020-02-27 00:06:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:1000, lr:5.000e-04, loss:-14.989, batch:1000 utterances> 
+2020-02-27 00:08:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 35, iter:1200, lr:5.000e-04, loss:-14.936, batch:1200 utterances> 
+2020-02-27 00:10:44 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 35, lr:5.000e-04, loss:-14.967, Total time:15.454 min> 
+2020-02-27 00:10:44 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 00:11:29 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 35, iter:200, lr:5.000e-04, loss:-14.183, batch:200 utterances> 
+2020-02-27 00:12:02 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 35, lr:5.000e-04, loss:-14.095, Total time:1.285 min> 
+2020-02-27 00:12:02 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.2891
+Epoch    35: reducing learning rate of group 0 to 2.5000e-04.
+2020-02-27 00:12:07 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 00:14:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:200, lr:2.500e-04, loss:-15.190, batch:200 utterances> 
+2020-02-27 00:16:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:400, lr:2.500e-04, loss:-15.354, batch:400 utterances> 
+2020-02-27 00:18:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:600, lr:2.500e-04, loss:-15.343, batch:600 utterances> 
+2020-02-27 00:21:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:800, lr:2.500e-04, loss:-15.315, batch:800 utterances> 
+2020-02-27 00:23:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:1000, lr:2.500e-04, loss:-15.327, batch:1000 utterances> 
+2020-02-27 00:25:39 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 36, iter:1200, lr:2.500e-04, loss:-15.349, batch:1200 utterances> 
+2020-02-27 00:27:43 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 36, lr:2.500e-04, loss:-15.321, Total time:15.602 min> 
+2020-02-27 00:27:43 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 00:28:27 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 36, iter:200, lr:2.500e-04, loss:-14.546, batch:200 utterances> 
+2020-02-27 00:29:00 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 36, lr:2.500e-04, loss:-14.502, Total time:1.291 min> 
+2020-02-27 00:29:06 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 36, now best loss change: -14.5025
+2020-02-27 00:29:11 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 00:31:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:200, lr:2.500e-04, loss:-15.489, batch:200 utterances> 
+2020-02-27 00:33:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:400, lr:2.500e-04, loss:-15.418, batch:400 utterances> 
+2020-02-27 00:35:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:600, lr:2.500e-04, loss:-15.454, batch:600 utterances> 
+2020-02-27 00:38:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:800, lr:2.500e-04, loss:-15.254, batch:800 utterances> 
+2020-02-27 00:40:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:1000, lr:2.500e-04, loss:-15.410, batch:1000 utterances> 
+2020-02-27 00:42:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 37, iter:1200, lr:2.500e-04, loss:-15.278, batch:1200 utterances> 
+2020-02-27 00:44:46 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 37, lr:2.500e-04, loss:-15.378, Total time:15.590 min> 
+2020-02-27 00:44:46 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 00:45:31 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 37, iter:200, lr:2.500e-04, loss:-14.625, batch:200 utterances> 
+2020-02-27 00:46:04 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 37, lr:2.500e-04, loss:-14.594, Total time:1.290 min> 
+2020-02-27 00:46:09 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 37, now best loss change: -14.5937
+2020-02-27 00:46:14 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 00:48:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:200, lr:2.500e-04, loss:-15.520, batch:200 utterances> 
+2020-02-27 00:50:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:400, lr:2.500e-04, loss:-15.464, batch:400 utterances> 
+2020-02-27 00:53:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:600, lr:2.500e-04, loss:-15.520, batch:600 utterances> 
+2020-02-27 00:55:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:800, lr:2.500e-04, loss:-15.477, batch:800 utterances> 
+2020-02-27 00:57:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:1000, lr:2.500e-04, loss:-15.490, batch:1000 utterances> 
+2020-02-27 00:59:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 38, iter:1200, lr:2.500e-04, loss:-15.393, batch:1200 utterances> 
+2020-02-27 01:01:51 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 38, lr:2.500e-04, loss:-15.450, Total time:15.606 min> 
+2020-02-27 01:01:51 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 01:02:35 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 38, iter:200, lr:2.500e-04, loss:-14.550, batch:200 utterances> 
+2020-02-27 01:03:08 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 38, lr:2.500e-04, loss:-14.560, Total time:1.284 min> 
+2020-02-27 01:03:08 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.5937
+2020-02-27 01:03:13 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 01:05:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:200, lr:2.500e-04, loss:-15.357, batch:200 utterances> 
+2020-02-27 01:07:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:400, lr:2.500e-04, loss:-15.514, batch:400 utterances> 
+2020-02-27 01:10:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:600, lr:2.500e-04, loss:-15.560, batch:600 utterances> 
+2020-02-27 01:12:14 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:800, lr:2.500e-04, loss:-15.430, batch:800 utterances> 
+2020-02-27 01:14:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:1000, lr:2.500e-04, loss:-15.555, batch:1000 utterances> 
+2020-02-27 01:16:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 39, iter:1200, lr:2.500e-04, loss:-15.537, batch:1200 utterances> 
+2020-02-27 01:18:49 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 39, lr:2.500e-04, loss:-15.501, Total time:15.594 min> 
+2020-02-27 01:18:49 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 01:19:33 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 39, iter:200, lr:2.500e-04, loss:-14.602, batch:200 utterances> 
+2020-02-27 01:20:06 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 39, lr:2.500e-04, loss:-14.602, Total time:1.292 min> 
+2020-02-27 01:20:12 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 39, now best loss change: -14.6022
+2020-02-27 01:20:17 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 01:22:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:200, lr:2.500e-04, loss:-15.687, batch:200 utterances> 
+2020-02-27 01:24:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:400, lr:2.500e-04, loss:-15.433, batch:400 utterances> 
+2020-02-27 01:27:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:600, lr:2.500e-04, loss:-15.327, batch:600 utterances> 
+2020-02-27 01:29:20 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:800, lr:2.500e-04, loss:-15.405, batch:800 utterances> 
+2020-02-27 01:31:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:1000, lr:2.500e-04, loss:-15.605, batch:1000 utterances> 
+2020-02-27 01:33:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 40, iter:1200, lr:2.500e-04, loss:-15.579, batch:1200 utterances> 
+2020-02-27 01:35:55 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 40, lr:2.500e-04, loss:-15.505, Total time:15.627 min> 
+2020-02-27 01:35:55 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 01:36:39 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 40, iter:200, lr:2.500e-04, loss:-14.771, batch:200 utterances> 
+2020-02-27 01:37:12 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 40, lr:2.500e-04, loss:-14.703, Total time:1.290 min> 
+2020-02-27 01:37:17 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 40, now best loss change: -14.7029
+2020-02-27 01:37:23 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 01:39:39 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:200, lr:2.500e-04, loss:-15.717, batch:200 utterances> 
+2020-02-27 01:41:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:400, lr:2.500e-04, loss:-15.570, batch:400 utterances> 
+2020-02-27 01:44:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:600, lr:2.500e-04, loss:-15.575, batch:600 utterances> 
+2020-02-27 01:46:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:800, lr:2.500e-04, loss:-15.524, batch:800 utterances> 
+2020-02-27 01:48:39 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:1000, lr:2.500e-04, loss:-15.287, batch:1000 utterances> 
+2020-02-27 01:50:54 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 41, iter:1200, lr:2.500e-04, loss:-15.590, batch:1200 utterances> 
+2020-02-27 01:52:59 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 41, lr:2.500e-04, loss:-15.537, Total time:15.612 min> 
+2020-02-27 01:52:59 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 01:53:44 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 41, iter:200, lr:2.500e-04, loss:-14.559, batch:200 utterances> 
+2020-02-27 01:54:17 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 41, lr:2.500e-04, loss:-14.595, Total time:1.289 min> 
+2020-02-27 01:54:17 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.7029
+2020-02-27 01:54:22 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 01:56:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:200, lr:2.500e-04, loss:-15.727, batch:200 utterances> 
+2020-02-27 01:58:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:400, lr:2.500e-04, loss:-15.583, batch:400 utterances> 
+2020-02-27 02:01:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:600, lr:2.500e-04, loss:-15.682, batch:600 utterances> 
+2020-02-27 02:03:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:800, lr:2.500e-04, loss:-15.698, batch:800 utterances> 
+2020-02-27 02:05:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:1000, lr:2.500e-04, loss:-15.703, batch:1000 utterances> 
+2020-02-27 02:07:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 42, iter:1200, lr:2.500e-04, loss:-15.556, batch:1200 utterances> 
+2020-02-27 02:09:57 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 42, lr:2.500e-04, loss:-15.659, Total time:15.587 min> 
+2020-02-27 02:09:57 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 02:10:42 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 42, iter:200, lr:2.500e-04, loss:-14.652, batch:200 utterances> 
+2020-02-27 02:11:14 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 42, lr:2.500e-04, loss:-14.682, Total time:1.286 min> 
+2020-02-27 02:11:14 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.7029
+2020-02-27 02:11:20 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 02:13:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:200, lr:2.500e-04, loss:-15.751, batch:200 utterances> 
+2020-02-27 02:15:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:400, lr:2.500e-04, loss:-15.782, batch:400 utterances> 
+2020-02-27 02:18:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:600, lr:2.500e-04, loss:-15.592, batch:600 utterances> 
+2020-02-27 02:20:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:800, lr:2.500e-04, loss:-15.475, batch:800 utterances> 
+2020-02-27 02:22:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:1000, lr:2.500e-04, loss:-15.499, batch:1000 utterances> 
+2020-02-27 02:24:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 43, iter:1200, lr:2.500e-04, loss:-15.524, batch:1200 utterances> 
+2020-02-27 02:26:57 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 43, lr:2.500e-04, loss:-15.599, Total time:15.621 min> 
+2020-02-27 02:26:57 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 02:27:42 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 43, iter:200, lr:2.500e-04, loss:-14.716, batch:200 utterances> 
+2020-02-27 02:28:15 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 43, lr:2.500e-04, loss:-14.698, Total time:1.292 min> 
+2020-02-27 02:28:15 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.7029
+Epoch    43: reducing learning rate of group 0 to 1.2500e-04.
+2020-02-27 02:28:20 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 02:30:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:200, lr:1.250e-04, loss:-15.711, batch:200 utterances> 
+2020-02-27 02:32:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:400, lr:1.250e-04, loss:-15.781, batch:400 utterances> 
+2020-02-27 02:35:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:600, lr:1.250e-04, loss:-15.811, batch:600 utterances> 
+2020-02-27 02:37:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:800, lr:1.250e-04, loss:-15.884, batch:800 utterances> 
+2020-02-27 02:39:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:1000, lr:1.250e-04, loss:-15.793, batch:1000 utterances> 
+2020-02-27 02:41:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 44, iter:1200, lr:1.250e-04, loss:-15.738, batch:1200 utterances> 
+2020-02-27 02:43:56 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 44, lr:1.250e-04, loss:-15.786, Total time:15.605 min> 
+2020-02-27 02:43:56 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 02:44:40 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 44, iter:200, lr:1.250e-04, loss:-14.724, batch:200 utterances> 
+2020-02-27 02:45:13 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 44, lr:1.250e-04, loss:-14.710, Total time:1.286 min> 
+2020-02-27 02:45:19 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 44, now best loss change: -14.7101
+2020-02-27 02:45:24 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 02:47:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:200, lr:1.250e-04, loss:-15.865, batch:200 utterances> 
+2020-02-27 02:49:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:400, lr:1.250e-04, loss:-15.908, batch:400 utterances> 
+2020-02-27 02:52:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:600, lr:1.250e-04, loss:-15.848, batch:600 utterances> 
+2020-02-27 02:54:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:800, lr:1.250e-04, loss:-15.899, batch:800 utterances> 
+2020-02-27 02:56:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:1000, lr:1.250e-04, loss:-15.831, batch:1000 utterances> 
+2020-02-27 02:58:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 45, iter:1200, lr:1.250e-04, loss:-15.899, batch:1200 utterances> 
+2020-02-27 03:01:02 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 45, lr:1.250e-04, loss:-15.877, Total time:15.633 min> 
+2020-02-27 03:01:02 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 03:01:46 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 45, iter:200, lr:1.250e-04, loss:-14.865, batch:200 utterances> 
+2020-02-27 03:02:19 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 45, lr:1.250e-04, loss:-14.839, Total time:1.284 min> 
+2020-02-27 03:02:24 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 45, now best loss change: -14.8389
+2020-02-27 03:02:30 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 03:04:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:200, lr:1.250e-04, loss:-15.908, batch:200 utterances> 
+2020-02-27 03:07:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:400, lr:1.250e-04, loss:-15.961, batch:400 utterances> 
+2020-02-27 03:09:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:600, lr:1.250e-04, loss:-15.791, batch:600 utterances> 
+2020-02-27 03:11:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:800, lr:1.250e-04, loss:-15.794, batch:800 utterances> 
+2020-02-27 03:13:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:1000, lr:1.250e-04, loss:-15.765, batch:1000 utterances> 
+2020-02-27 03:16:02 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 46, iter:1200, lr:1.250e-04, loss:-15.857, batch:1200 utterances> 
+2020-02-27 03:18:06 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 46, lr:1.250e-04, loss:-15.852, Total time:15.606 min> 
+2020-02-27 03:18:06 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 03:18:50 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 46, iter:200, lr:1.250e-04, loss:-14.713, batch:200 utterances> 
+2020-02-27 03:19:23 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 46, lr:1.250e-04, loss:-14.811, Total time:1.283 min> 
+2020-02-27 03:19:23 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.8389
+2020-02-27 03:19:28 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 03:21:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:200, lr:1.250e-04, loss:-15.940, batch:200 utterances> 
+2020-02-27 03:23:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:400, lr:1.250e-04, loss:-15.998, batch:400 utterances> 
+2020-02-27 03:26:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:600, lr:1.250e-04, loss:-15.939, batch:600 utterances> 
+2020-02-27 03:28:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:800, lr:1.250e-04, loss:-15.937, batch:800 utterances> 
+2020-02-27 03:30:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:1000, lr:1.250e-04, loss:-15.874, batch:1000 utterances> 
+2020-02-27 03:33:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 47, iter:1200, lr:1.250e-04, loss:-15.961, batch:1200 utterances> 
+2020-02-27 03:35:06 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 47, lr:1.250e-04, loss:-15.945, Total time:15.620 min> 
+2020-02-27 03:35:06 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 03:35:49 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 47, iter:200, lr:1.250e-04, loss:-14.899, batch:200 utterances> 
+2020-02-27 03:36:22 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 47, lr:1.250e-04, loss:-14.887, Total time:1.278 min> 
+2020-02-27 03:36:28 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 47, now best loss change: -14.8868
+2020-02-27 03:36:33 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 03:38:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:200, lr:1.250e-04, loss:-15.857, batch:200 utterances> 
+2020-02-27 03:41:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:400, lr:1.250e-04, loss:-15.991, batch:400 utterances> 
+2020-02-27 03:43:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:600, lr:1.250e-04, loss:-16.014, batch:600 utterances> 
+2020-02-27 03:45:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:800, lr:1.250e-04, loss:-15.898, batch:800 utterances> 
+2020-02-27 03:47:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:1000, lr:1.250e-04, loss:-15.925, batch:1000 utterances> 
+2020-02-27 03:50:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 48, iter:1200, lr:1.250e-04, loss:-15.872, batch:1200 utterances> 
+2020-02-27 03:52:12 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 48, lr:1.250e-04, loss:-15.933, Total time:15.660 min> 
+2020-02-27 03:52:12 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 03:52:57 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 48, iter:200, lr:1.250e-04, loss:-14.911, batch:200 utterances> 
+2020-02-27 03:53:30 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 48, lr:1.250e-04, loss:-14.914, Total time:1.292 min> 
+2020-02-27 03:53:35 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 48, now best loss change: -14.9141
+2020-02-27 03:53:41 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 03:55:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:200, lr:1.250e-04, loss:-16.049, batch:200 utterances> 
+2020-02-27 03:58:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:400, lr:1.250e-04, loss:-15.904, batch:400 utterances> 
+2020-02-27 04:00:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:600, lr:1.250e-04, loss:-15.842, batch:600 utterances> 
+2020-02-27 04:02:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:800, lr:1.250e-04, loss:-15.970, batch:800 utterances> 
+2020-02-27 04:05:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:1000, lr:1.250e-04, loss:-15.955, batch:1000 utterances> 
+2020-02-27 04:07:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 49, iter:1200, lr:1.250e-04, loss:-15.998, batch:1200 utterances> 
+2020-02-27 04:09:20 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 49, lr:1.250e-04, loss:-15.956, Total time:15.654 min> 
+2020-02-27 04:09:20 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 04:10:04 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 49, iter:200, lr:1.250e-04, loss:-14.856, batch:200 utterances> 
+2020-02-27 04:10:37 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 49, lr:1.250e-04, loss:-14.819, Total time:1.289 min> 
+2020-02-27 04:10:37 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.9141
+2020-02-27 04:10:43 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 04:12:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:200, lr:1.250e-04, loss:-15.968, batch:200 utterances> 
+2020-02-27 04:15:15 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:400, lr:1.250e-04, loss:-16.060, batch:400 utterances> 
+2020-02-27 04:17:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:600, lr:1.250e-04, loss:-16.028, batch:600 utterances> 
+2020-02-27 04:19:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:800, lr:1.250e-04, loss:-15.936, batch:800 utterances> 
+2020-02-27 04:22:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:1000, lr:1.250e-04, loss:-15.975, batch:1000 utterances> 
+2020-02-27 04:24:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 50, iter:1200, lr:1.250e-04, loss:-15.982, batch:1200 utterances> 
+2020-02-27 04:26:20 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 50, lr:1.250e-04, loss:-15.989, Total time:15.632 min> 
+2020-02-27 04:26:21 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 04:27:05 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 50, iter:200, lr:1.250e-04, loss:-14.741, batch:200 utterances> 
+2020-02-27 04:27:38 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 50, lr:1.250e-04, loss:-14.797, Total time:1.288 min> 
+2020-02-27 04:27:38 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.9141
+2020-02-27 04:27:43 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 04:30:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:200, lr:1.250e-04, loss:-15.909, batch:200 utterances> 
+2020-02-27 04:32:14 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:400, lr:1.250e-04, loss:-16.002, batch:400 utterances> 
+2020-02-27 04:34:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:600, lr:1.250e-04, loss:-16.105, batch:600 utterances> 
+2020-02-27 04:36:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:800, lr:1.250e-04, loss:-16.051, batch:800 utterances> 
+2020-02-27 04:38:59 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:1000, lr:1.250e-04, loss:-15.937, batch:1000 utterances> 
+2020-02-27 04:41:14 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 51, iter:1200, lr:1.250e-04, loss:-15.804, batch:1200 utterances> 
+2020-02-27 04:43:19 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 51, lr:1.250e-04, loss:-15.959, Total time:15.591 min> 
+2020-02-27 04:43:19 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 04:44:03 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 51, iter:200, lr:1.250e-04, loss:-14.908, batch:200 utterances> 
+2020-02-27 04:44:35 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 51, lr:1.250e-04, loss:-14.847, Total time:1.283 min> 
+2020-02-27 04:44:35 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.9141
+Epoch    51: reducing learning rate of group 0 to 6.2500e-05.
+2020-02-27 04:44:41 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 04:46:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:200, lr:6.250e-05, loss:-16.040, batch:200 utterances> 
+2020-02-27 04:49:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:400, lr:6.250e-05, loss:-16.111, batch:400 utterances> 
+2020-02-27 04:51:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:600, lr:6.250e-05, loss:-16.028, batch:600 utterances> 
+2020-02-27 04:53:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:800, lr:6.250e-05, loss:-16.026, batch:800 utterances> 
+2020-02-27 04:55:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:1000, lr:6.250e-05, loss:-16.047, batch:1000 utterances> 
+2020-02-27 04:58:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 52, iter:1200, lr:6.250e-05, loss:-16.045, batch:1200 utterances> 
+2020-02-27 05:00:18 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 52, lr:6.250e-05, loss:-16.055, Total time:15.618 min> 
+2020-02-27 05:00:18 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 05:01:03 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 52, iter:200, lr:6.250e-05, loss:-14.979, batch:200 utterances> 
+2020-02-27 05:01:36 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 52, lr:6.250e-05, loss:-14.970, Total time:1.302 min> 
+2020-02-27 05:01:41 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 52, now best loss change: -14.9697
+2020-02-27 05:01:47 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 05:04:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:200, lr:6.250e-05, loss:-16.091, batch:200 utterances> 
+2020-02-27 05:06:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:400, lr:6.250e-05, loss:-16.125, batch:400 utterances> 
+2020-02-27 05:08:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:600, lr:6.250e-05, loss:-16.082, batch:600 utterances> 
+2020-02-27 05:10:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:800, lr:6.250e-05, loss:-16.131, batch:800 utterances> 
+2020-02-27 05:13:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:1000, lr:6.250e-05, loss:-16.079, batch:1000 utterances> 
+2020-02-27 05:15:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 53, iter:1200, lr:6.250e-05, loss:-16.119, batch:1200 utterances> 
+2020-02-27 05:17:24 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 53, lr:6.250e-05, loss:-16.113, Total time:15.629 min> 
+2020-02-27 05:17:24 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 05:18:09 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 53, iter:200, lr:6.250e-05, loss:-14.974, batch:200 utterances> 
+2020-02-27 05:18:42 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 53, lr:6.250e-05, loss:-14.982, Total time:1.292 min> 
+2020-02-27 05:18:47 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 53, now best loss change: -14.9820
+2020-02-27 05:18:53 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 05:21:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:200, lr:6.250e-05, loss:-16.085, batch:200 utterances> 
+2020-02-27 05:23:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:400, lr:6.250e-05, loss:-16.070, batch:400 utterances> 
+2020-02-27 05:25:39 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:600, lr:6.250e-05, loss:-16.200, batch:600 utterances> 
+2020-02-27 05:27:54 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:800, lr:6.250e-05, loss:-16.172, batch:800 utterances> 
+2020-02-27 05:30:10 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:1000, lr:6.250e-05, loss:-16.163, batch:1000 utterances> 
+2020-02-27 05:32:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 54, iter:1200, lr:6.250e-05, loss:-16.195, batch:1200 utterances> 
+2020-02-27 05:34:31 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 54, lr:6.250e-05, loss:-16.147, Total time:15.634 min> 
+2020-02-27 05:34:31 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 05:35:15 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 54, iter:200, lr:6.250e-05, loss:-14.982, batch:200 utterances> 
+2020-02-27 05:35:48 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 54, lr:6.250e-05, loss:-14.979, Total time:1.286 min> 
+2020-02-27 05:35:48 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -14.9820
+2020-02-27 05:35:53 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 05:38:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:200, lr:6.250e-05, loss:-16.147, batch:200 utterances> 
+2020-02-27 05:40:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:400, lr:6.250e-05, loss:-16.209, batch:400 utterances> 
+2020-02-27 05:42:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:600, lr:6.250e-05, loss:-16.153, batch:600 utterances> 
+2020-02-27 05:44:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:800, lr:6.250e-05, loss:-16.167, batch:800 utterances> 
+2020-02-27 05:47:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:1000, lr:6.250e-05, loss:-16.098, batch:1000 utterances> 
+2020-02-27 05:49:28 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 55, iter:1200, lr:6.250e-05, loss:-16.142, batch:1200 utterances> 
+2020-02-27 05:51:32 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 55, lr:6.250e-05, loss:-16.145, Total time:15.648 min> 
+2020-02-27 05:51:32 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 05:52:17 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 55, iter:200, lr:6.250e-05, loss:-15.016, batch:200 utterances> 
+2020-02-27 05:52:49 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 55, lr:6.250e-05, loss:-14.997, Total time:1.292 min> 
+2020-02-27 05:52:55 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 55, now best loss change: -14.9971
+2020-02-27 05:53:00 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 05:55:17 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:200, lr:6.250e-05, loss:-16.212, batch:200 utterances> 
+2020-02-27 05:57:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:400, lr:6.250e-05, loss:-16.200, batch:400 utterances> 
+2020-02-27 05:59:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:600, lr:6.250e-05, loss:-16.192, batch:600 utterances> 
+2020-02-27 06:02:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:800, lr:6.250e-05, loss:-16.193, batch:800 utterances> 
+2020-02-27 06:04:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:1000, lr:6.250e-05, loss:-16.176, batch:1000 utterances> 
+2020-02-27 06:06:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 56, iter:1200, lr:6.250e-05, loss:-16.180, batch:1200 utterances> 
+2020-02-27 06:08:38 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 56, lr:6.250e-05, loss:-16.183, Total time:15.637 min> 
+2020-02-27 06:08:38 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 06:09:23 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 56, iter:200, lr:6.250e-05, loss:-14.994, batch:200 utterances> 
+2020-02-27 06:09:56 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 56, lr:6.250e-05, loss:-15.028, Total time:1.293 min> 
+2020-02-27 06:10:01 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 56, now best loss change: -15.0283
+2020-02-27 06:10:07 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 06:12:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:200, lr:6.250e-05, loss:-16.116, batch:200 utterances> 
+2020-02-27 06:14:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:400, lr:6.250e-05, loss:-16.191, batch:400 utterances> 
+2020-02-27 06:16:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:600, lr:6.250e-05, loss:-16.194, batch:600 utterances> 
+2020-02-27 06:19:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:800, lr:6.250e-05, loss:-16.200, batch:800 utterances> 
+2020-02-27 06:21:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:1000, lr:6.250e-05, loss:-16.159, batch:1000 utterances> 
+2020-02-27 06:23:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 57, iter:1200, lr:6.250e-05, loss:-16.172, batch:1200 utterances> 
+2020-02-27 06:25:41 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 57, lr:6.250e-05, loss:-16.170, Total time:15.567 min> 
+2020-02-27 06:25:41 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 06:26:25 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 57, iter:200, lr:6.250e-05, loss:-15.060, batch:200 utterances> 
+2020-02-27 06:26:58 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 57, lr:6.250e-05, loss:-15.010, Total time:1.288 min> 
+2020-02-27 06:26:58 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0283
+2020-02-27 06:27:03 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 06:29:20 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:200, lr:6.250e-05, loss:-16.192, batch:200 utterances> 
+2020-02-27 06:31:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:400, lr:6.250e-05, loss:-16.271, batch:400 utterances> 
+2020-02-27 06:33:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:600, lr:6.250e-05, loss:-16.210, batch:600 utterances> 
+2020-02-27 06:36:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:800, lr:6.250e-05, loss:-16.194, batch:800 utterances> 
+2020-02-27 06:38:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:1000, lr:6.250e-05, loss:-16.194, batch:1000 utterances> 
+2020-02-27 06:40:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 58, iter:1200, lr:6.250e-05, loss:-16.153, batch:1200 utterances> 
+2020-02-27 06:42:42 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 58, lr:6.250e-05, loss:-16.197, Total time:15.639 min> 
+2020-02-27 06:42:42 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 06:43:26 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 58, iter:200, lr:6.250e-05, loss:-15.028, batch:200 utterances> 
+2020-02-27 06:43:59 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 58, lr:6.250e-05, loss:-15.013, Total time:1.289 min> 
+2020-02-27 06:43:59 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0283
+2020-02-27 06:44:04 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 06:46:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:200, lr:6.250e-05, loss:-16.171, batch:200 utterances> 
+2020-02-27 06:48:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:400, lr:6.250e-05, loss:-16.217, batch:400 utterances> 
+2020-02-27 06:50:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:600, lr:6.250e-05, loss:-16.272, batch:600 utterances> 
+2020-02-27 06:53:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:800, lr:6.250e-05, loss:-16.207, batch:800 utterances> 
+2020-02-27 06:55:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:1000, lr:6.250e-05, loss:-16.201, batch:1000 utterances> 
+2020-02-27 06:57:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 59, iter:1200, lr:6.250e-05, loss:-16.160, batch:1200 utterances> 
+2020-02-27 06:59:42 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 59, lr:6.250e-05, loss:-16.204, Total time:15.630 min> 
+2020-02-27 06:59:42 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 07:00:27 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 59, iter:200, lr:6.250e-05, loss:-14.913, batch:200 utterances> 
+2020-02-27 07:00:59 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 59, lr:6.250e-05, loss:-15.001, Total time:1.279 min> 
+2020-02-27 07:00:59 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0283
+Epoch    59: reducing learning rate of group 0 to 3.1250e-05.
+2020-02-27 07:01:04 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 07:03:20 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:200, lr:3.125e-05, loss:-16.208, batch:200 utterances> 
+2020-02-27 07:05:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:400, lr:3.125e-05, loss:-16.292, batch:400 utterances> 
+2020-02-27 07:07:50 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:600, lr:3.125e-05, loss:-16.230, batch:600 utterances> 
+2020-02-27 07:10:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:800, lr:3.125e-05, loss:-16.252, batch:800 utterances> 
+2020-02-27 07:12:20 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:1000, lr:3.125e-05, loss:-16.211, batch:1000 utterances> 
+2020-02-27 07:14:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 60, iter:1200, lr:3.125e-05, loss:-16.241, batch:1200 utterances> 
+2020-02-27 07:16:41 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 60, lr:3.125e-05, loss:-16.246, Total time:15.611 min> 
+2020-02-27 07:16:41 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 07:17:25 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 60, iter:200, lr:3.125e-05, loss:-15.090, batch:200 utterances> 
+2020-02-27 07:17:58 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 60, lr:3.125e-05, loss:-15.033, Total time:1.289 min> 
+2020-02-27 07:18:04 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 60, now best loss change: -15.0334
+2020-02-27 07:18:09 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 07:20:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:200, lr:3.125e-05, loss:-16.308, batch:200 utterances> 
+2020-02-27 07:22:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:400, lr:3.125e-05, loss:-16.257, batch:400 utterances> 
+2020-02-27 07:24:55 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:600, lr:3.125e-05, loss:-16.249, batch:600 utterances> 
+2020-02-27 07:27:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:800, lr:3.125e-05, loss:-16.275, batch:800 utterances> 
+2020-02-27 07:29:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:1000, lr:3.125e-05, loss:-16.193, batch:1000 utterances> 
+2020-02-27 07:31:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 61, iter:1200, lr:3.125e-05, loss:-16.248, batch:1200 utterances> 
+2020-02-27 07:33:47 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 61, lr:3.125e-05, loss:-16.254, Total time:15.638 min> 
+2020-02-27 07:33:47 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 07:34:31 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 61, iter:200, lr:3.125e-05, loss:-15.044, batch:200 utterances> 
+2020-02-27 07:35:04 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 61, lr:3.125e-05, loss:-15.055, Total time:1.276 min> 
+2020-02-27 07:35:09 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 61, now best loss change: -15.0546
+2020-02-27 07:35:14 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 07:37:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:200, lr:3.125e-05, loss:-16.250, batch:200 utterances> 
+2020-02-27 07:39:46 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:400, lr:3.125e-05, loss:-16.331, batch:400 utterances> 
+2020-02-27 07:42:01 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:600, lr:3.125e-05, loss:-16.266, batch:600 utterances> 
+2020-02-27 07:44:17 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:800, lr:3.125e-05, loss:-16.300, batch:800 utterances> 
+2020-02-27 07:46:32 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:1000, lr:3.125e-05, loss:-16.228, batch:1000 utterances> 
+2020-02-27 07:48:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 62, iter:1200, lr:3.125e-05, loss:-16.299, batch:1200 utterances> 
+2020-02-27 07:50:54 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 62, lr:3.125e-05, loss:-16.270, Total time:15.661 min> 
+2020-02-27 07:50:54 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 07:51:38 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 62, iter:200, lr:3.125e-05, loss:-15.066, batch:200 utterances> 
+2020-02-27 07:52:11 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 62, lr:3.125e-05, loss:-15.062, Total time:1.275 min> 
+2020-02-27 07:52:16 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 62, now best loss change: -15.0623
+2020-02-27 07:52:21 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 07:54:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:200, lr:3.125e-05, loss:-16.278, batch:200 utterances> 
+2020-02-27 07:56:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:400, lr:3.125e-05, loss:-16.303, batch:400 utterances> 
+2020-02-27 07:59:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:600, lr:3.125e-05, loss:-16.267, batch:600 utterances> 
+2020-02-27 08:01:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:800, lr:3.125e-05, loss:-16.241, batch:800 utterances> 
+2020-02-27 08:03:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:1000, lr:3.125e-05, loss:-16.197, batch:1000 utterances> 
+2020-02-27 08:05:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 63, iter:1200, lr:3.125e-05, loss:-16.335, batch:1200 utterances> 
+2020-02-27 08:07:58 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 63, lr:3.125e-05, loss:-16.276, Total time:15.616 min> 
+2020-02-27 08:07:58 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 08:08:43 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 63, iter:200, lr:3.125e-05, loss:-15.069, batch:200 utterances> 
+2020-02-27 08:09:16 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 63, lr:3.125e-05, loss:-15.061, Total time:1.287 min> 
+2020-02-27 08:09:16 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0623
+2020-02-27 08:09:21 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 08:11:38 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:200, lr:3.125e-05, loss:-16.332, batch:200 utterances> 
+2020-02-27 08:13:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:400, lr:3.125e-05, loss:-16.226, batch:400 utterances> 
+2020-02-27 08:16:09 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:600, lr:3.125e-05, loss:-16.283, batch:600 utterances> 
+2020-02-27 08:18:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:800, lr:3.125e-05, loss:-16.262, batch:800 utterances> 
+2020-02-27 08:20:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:1000, lr:3.125e-05, loss:-16.234, batch:1000 utterances> 
+2020-02-27 08:22:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 64, iter:1200, lr:3.125e-05, loss:-16.309, batch:1200 utterances> 
+2020-02-27 08:25:00 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 64, lr:3.125e-05, loss:-16.273, Total time:15.661 min> 
+2020-02-27 08:25:00 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 08:25:45 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 64, iter:200, lr:3.125e-05, loss:-15.151, batch:200 utterances> 
+2020-02-27 08:26:18 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 64, lr:3.125e-05, loss:-15.059, Total time:1.293 min> 
+2020-02-27 08:26:18 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0623
+2020-02-27 08:26:23 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 08:28:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:200, lr:3.125e-05, loss:-16.301, batch:200 utterances> 
+2020-02-27 08:30:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:400, lr:3.125e-05, loss:-16.329, batch:400 utterances> 
+2020-02-27 08:33:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:600, lr:3.125e-05, loss:-16.287, batch:600 utterances> 
+2020-02-27 08:35:25 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:800, lr:3.125e-05, loss:-16.323, batch:800 utterances> 
+2020-02-27 08:37:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:1000, lr:3.125e-05, loss:-16.274, batch:1000 utterances> 
+2020-02-27 08:39:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 65, iter:1200, lr:3.125e-05, loss:-16.307, batch:1200 utterances> 
+2020-02-27 08:42:03 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 65, lr:3.125e-05, loss:-16.296, Total time:15.652 min> 
+2020-02-27 08:42:03 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 08:42:47 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 65, iter:200, lr:3.125e-05, loss:-15.141, batch:200 utterances> 
+2020-02-27 08:43:20 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 65, lr:3.125e-05, loss:-15.058, Total time:1.287 min> 
+2020-02-27 08:43:20 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0623
+Epoch    65: reducing learning rate of group 0 to 1.5625e-05.
+2020-02-27 08:43:25 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 08:45:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:200, lr:1.563e-05, loss:-16.294, batch:200 utterances> 
+2020-02-27 08:47:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:400, lr:1.563e-05, loss:-16.316, batch:400 utterances> 
+2020-02-27 08:50:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:600, lr:1.563e-05, loss:-16.334, batch:600 utterances> 
+2020-02-27 08:52:26 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:800, lr:1.563e-05, loss:-16.313, batch:800 utterances> 
+2020-02-27 08:54:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:1000, lr:1.563e-05, loss:-16.346, batch:1000 utterances> 
+2020-02-27 08:56:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 66, iter:1200, lr:1.563e-05, loss:-16.287, batch:1200 utterances> 
+2020-02-27 08:59:02 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 66, lr:1.563e-05, loss:-16.310, Total time:15.615 min> 
+2020-02-27 08:59:02 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 08:59:47 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 66, iter:200, lr:1.563e-05, loss:-15.020, batch:200 utterances> 
+2020-02-27 09:00:20 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 66, lr:1.563e-05, loss:-15.078, Total time:1.296 min> 
+2020-02-27 09:00:25 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 66, now best loss change: -15.0776
+2020-02-27 09:00:30 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 09:02:47 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:200, lr:1.563e-05, loss:-16.352, batch:200 utterances> 
+2020-02-27 09:05:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:400, lr:1.563e-05, loss:-16.276, batch:400 utterances> 
+2020-02-27 09:07:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:600, lr:1.563e-05, loss:-16.316, batch:600 utterances> 
+2020-02-27 09:09:34 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:800, lr:1.563e-05, loss:-16.345, batch:800 utterances> 
+2020-02-27 09:11:49 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:1000, lr:1.563e-05, loss:-16.290, batch:1000 utterances> 
+2020-02-27 09:14:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 67, iter:1200, lr:1.563e-05, loss:-16.294, batch:1200 utterances> 
+2020-02-27 09:16:10 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 67, lr:1.563e-05, loss:-16.318, Total time:15.667 min> 
+2020-02-27 09:16:10 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 09:16:55 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 67, iter:200, lr:1.563e-05, loss:-15.023, batch:200 utterances> 
+2020-02-27 09:17:28 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 67, lr:1.563e-05, loss:-15.082, Total time:1.291 min> 
+2020-02-27 09:17:33 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 67, now best loss change: -15.0820
+2020-02-27 09:17:39 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 09:19:55 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:200, lr:1.563e-05, loss:-16.329, batch:200 utterances> 
+2020-02-27 09:22:11 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:400, lr:1.563e-05, loss:-16.329, batch:400 utterances> 
+2020-02-27 09:24:27 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:600, lr:1.563e-05, loss:-16.297, batch:600 utterances> 
+2020-02-27 09:26:43 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:800, lr:1.563e-05, loss:-16.313, batch:800 utterances> 
+2020-02-27 09:28:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:1000, lr:1.563e-05, loss:-16.357, batch:1000 utterances> 
+2020-02-27 09:31:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 68, iter:1200, lr:1.563e-05, loss:-16.317, batch:1200 utterances> 
+2020-02-27 09:33:18 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 68, lr:1.563e-05, loss:-16.327, Total time:15.661 min> 
+2020-02-27 09:33:18 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 09:34:03 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 68, iter:200, lr:1.563e-05, loss:-15.132, batch:200 utterances> 
+2020-02-27 09:34:36 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 68, lr:1.563e-05, loss:-15.080, Total time:1.292 min> 
+2020-02-27 09:34:36 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.0820
+2020-02-27 09:34:41 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 09:36:58 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:200, lr:1.563e-05, loss:-16.314, batch:200 utterances> 
+2020-02-27 09:39:14 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:400, lr:1.563e-05, loss:-16.337, batch:400 utterances> 
+2020-02-27 09:41:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:600, lr:1.563e-05, loss:-16.305, batch:600 utterances> 
+2020-02-27 09:43:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:800, lr:1.563e-05, loss:-16.357, batch:800 utterances> 
+2020-02-27 09:46:00 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:1000, lr:1.563e-05, loss:-16.320, batch:1000 utterances> 
+2020-02-27 09:48:16 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 69, iter:1200, lr:1.563e-05, loss:-16.289, batch:1200 utterances> 
+2020-02-27 09:50:21 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 69, lr:1.563e-05, loss:-16.325, Total time:15.658 min> 
+2020-02-27 09:50:21 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 09:51:05 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 69, iter:200, lr:1.563e-05, loss:-15.029, batch:200 utterances> 
+2020-02-27 09:51:38 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 69, lr:1.563e-05, loss:-15.084, Total time:1.288 min> 
+2020-02-27 09:51:43 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 69, now best loss change: -15.0837
+2020-02-27 09:51:49 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 09:54:05 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:200, lr:1.563e-05, loss:-16.289, batch:200 utterances> 
+2020-02-27 09:56:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:400, lr:1.563e-05, loss:-16.349, batch:400 utterances> 
+2020-02-27 09:58:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:600, lr:1.563e-05, loss:-16.326, batch:600 utterances> 
+2020-02-27 10:00:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:800, lr:1.563e-05, loss:-16.358, batch:800 utterances> 
+2020-02-27 10:03:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:1000, lr:1.563e-05, loss:-16.295, batch:1000 utterances> 
+2020-02-27 10:05:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 70, iter:1200, lr:1.563e-05, loss:-16.371, batch:1200 utterances> 
+2020-02-27 10:07:28 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 70, lr:1.563e-05, loss:-16.335, Total time:15.666 min> 
+2020-02-27 10:07:28 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 10:08:13 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 70, iter:200, lr:1.563e-05, loss:-15.058, batch:200 utterances> 
+2020-02-27 10:08:46 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 70, lr:1.563e-05, loss:-15.088, Total time:1.285 min> 
+2020-02-27 10:08:51 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 70, now best loss change: -15.0878
+2020-02-27 10:08:56 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 10:11:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:200, lr:1.563e-05, loss:-16.377, batch:200 utterances> 
+2020-02-27 10:13:28 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:400, lr:1.563e-05, loss:-16.363, batch:400 utterances> 
+2020-02-27 10:15:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:600, lr:1.563e-05, loss:-16.390, batch:600 utterances> 
+2020-02-27 10:17:57 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:800, lr:1.563e-05, loss:-16.287, batch:800 utterances> 
+2020-02-27 10:20:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:1000, lr:1.563e-05, loss:-16.312, batch:1000 utterances> 
+2020-02-27 10:22:28 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 71, iter:1200, lr:1.563e-05, loss:-16.354, batch:1200 utterances> 
+2020-02-27 10:24:33 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 71, lr:1.563e-05, loss:-16.342, Total time:15.610 min> 
+2020-02-27 10:24:33 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 10:25:17 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 71, iter:200, lr:1.563e-05, loss:-15.090, batch:200 utterances> 
+2020-02-27 10:25:50 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 71, lr:1.563e-05, loss:-15.102, Total time:1.287 min> 
+2020-02-27 10:25:55 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 71, now best loss change: -15.1021
+2020-02-27 10:26:01 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 10:28:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:200, lr:1.563e-05, loss:-16.353, batch:200 utterances> 
+2020-02-27 10:30:33 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:400, lr:1.563e-05, loss:-16.354, batch:400 utterances> 
+2020-02-27 10:32:48 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:600, lr:1.563e-05, loss:-16.295, batch:600 utterances> 
+2020-02-27 10:35:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:800, lr:1.563e-05, loss:-16.359, batch:800 utterances> 
+2020-02-27 10:37:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:1000, lr:1.563e-05, loss:-16.362, batch:1000 utterances> 
+2020-02-27 10:39:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 72, iter:1200, lr:1.563e-05, loss:-16.347, batch:1200 utterances> 
+2020-02-27 10:41:44 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 72, lr:1.563e-05, loss:-16.345, Total time:15.714 min> 
+2020-02-27 10:41:44 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 10:42:28 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 72, iter:200, lr:1.563e-05, loss:-15.096, batch:200 utterances> 
+2020-02-27 10:43:00 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 72, lr:1.563e-05, loss:-15.090, Total time:1.277 min> 
+2020-02-27 10:43:00 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.1021
+2020-02-27 10:43:06 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 10:45:21 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:200, lr:1.563e-05, loss:-16.329, batch:200 utterances> 
+2020-02-27 10:47:36 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:400, lr:1.563e-05, loss:-16.374, batch:400 utterances> 
+2020-02-27 10:49:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:600, lr:1.563e-05, loss:-16.357, batch:600 utterances> 
+2020-02-27 10:52:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:800, lr:1.563e-05, loss:-16.325, batch:800 utterances> 
+2020-02-27 10:54:22 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:1000, lr:1.563e-05, loss:-16.313, batch:1000 utterances> 
+2020-02-27 10:56:37 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 73, iter:1200, lr:1.563e-05, loss:-16.359, batch:1200 utterances> 
+2020-02-27 10:58:42 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 73, lr:1.563e-05, loss:-16.349, Total time:15.603 min> 
+2020-02-27 10:58:42 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 10:59:26 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 73, iter:200, lr:1.563e-05, loss:-14.998, batch:200 utterances> 
+2020-02-27 10:59:58 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 73, lr:1.563e-05, loss:-15.110, Total time:1.266 min> 
+2020-02-27 11:00:03 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 73, now best loss change: -15.1099
+2020-02-27 11:00:09 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 11:02:20 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:200, lr:1.563e-05, loss:-16.346, batch:200 utterances> 
+2020-02-27 11:04:30 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:400, lr:1.563e-05, loss:-16.401, batch:400 utterances> 
+2020-02-27 11:06:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:600, lr:1.563e-05, loss:-16.347, batch:600 utterances> 
+2020-02-27 11:08:51 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:800, lr:1.563e-05, loss:-16.343, batch:800 utterances> 
+2020-02-27 11:11:02 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:1000, lr:1.563e-05, loss:-16.329, batch:1000 utterances> 
+2020-02-27 11:13:12 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 74, iter:1200, lr:1.563e-05, loss:-16.344, batch:1200 utterances> 
+2020-02-27 11:15:13 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 74, lr:1.563e-05, loss:-16.351, Total time:15.071 min> 
+2020-02-27 11:15:13 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 11:16:45 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 74, iter:200, lr:1.563e-05, loss:-15.120, batch:200 utterances> 
+2020-02-27 11:17:50 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 74, lr:1.563e-05, loss:-15.107, Total time:2.614 min> 
+2020-02-27 11:17:50 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.1099
+2020-02-27 11:17:55 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 11:20:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:200, lr:1.563e-05, loss:-16.396, batch:200 utterances> 
+2020-02-27 11:22:19 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:400, lr:1.563e-05, loss:-16.405, batch:400 utterances> 
+2020-02-27 11:24:31 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:600, lr:1.563e-05, loss:-16.319, batch:600 utterances> 
+2020-02-27 11:26:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:800, lr:1.563e-05, loss:-16.362, batch:800 utterances> 
+2020-02-27 11:28:52 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:1000, lr:1.563e-05, loss:-16.313, batch:1000 utterances> 
+2020-02-27 11:31:03 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 75, iter:1200, lr:1.563e-05, loss:-16.318, batch:1200 utterances> 
+2020-02-27 11:33:05 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 75, lr:1.563e-05, loss:-16.356, Total time:15.168 min> 
+2020-02-27 11:33:05 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 11:33:48 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 75, iter:200, lr:1.563e-05, loss:-15.098, batch:200 utterances> 
+2020-02-27 11:34:20 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 75, lr:1.563e-05, loss:-15.113, Total time:1.250 min> 
+2020-02-27 11:34:26 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 75, now best loss change: -15.1133
+2020-02-27 11:34:31 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 11:36:42 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:200, lr:1.563e-05, loss:-16.454, batch:200 utterances> 
+2020-02-27 11:38:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:400, lr:1.563e-05, loss:-16.304, batch:400 utterances> 
+2020-02-27 11:41:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:600, lr:1.563e-05, loss:-16.325, batch:600 utterances> 
+2020-02-27 11:43:14 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:800, lr:1.563e-05, loss:-16.361, batch:800 utterances> 
+2020-02-27 11:45:24 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:1000, lr:1.563e-05, loss:-16.399, batch:1000 utterances> 
+2020-02-27 11:47:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 76, iter:1200, lr:1.563e-05, loss:-16.343, batch:1200 utterances> 
+2020-02-27 11:49:36 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 76, lr:1.563e-05, loss:-16.365, Total time:15.092 min> 
+2020-02-27 11:49:36 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 11:50:19 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 76, iter:200, lr:1.563e-05, loss:-15.148, batch:200 utterances> 
+2020-02-27 11:50:51 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 76, lr:1.563e-05, loss:-15.107, Total time:1.236 min> 
+2020-02-27 11:50:51 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.1133
+2020-02-27 11:50:56 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 11:53:08 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:200, lr:1.563e-05, loss:-16.413, batch:200 utterances> 
+2020-02-27 11:55:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:400, lr:1.563e-05, loss:-16.405, batch:400 utterances> 
+2020-02-27 11:57:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:600, lr:1.563e-05, loss:-16.404, batch:600 utterances> 
+2020-02-27 11:59:41 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:800, lr:1.563e-05, loss:-16.320, batch:800 utterances> 
+2020-02-27 12:01:53 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:1000, lr:1.563e-05, loss:-16.334, batch:1000 utterances> 
+2020-02-27 12:04:04 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 77, iter:1200, lr:1.563e-05, loss:-16.339, batch:1200 utterances> 
+2020-02-27 12:06:05 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 77, lr:1.563e-05, loss:-16.368, Total time:15.151 min> 
+2020-02-27 12:06:05 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 12:06:48 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 77, iter:200, lr:1.563e-05, loss:-15.127, batch:200 utterances> 
+2020-02-27 12:07:20 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 77, lr:1.563e-05, loss:-15.117, Total time:1.251 min> 
+2020-02-27 12:07:26 [/home/likai/data1/Conv-TasNet/trainer.py:246 - INFO ] Epoch: 77, now best loss change: -15.1168
+2020-02-27 12:07:31 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 12:09:44 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:200, lr:1.563e-05, loss:-16.359, batch:200 utterances> 
+2020-02-27 12:11:56 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:400, lr:1.563e-05, loss:-16.395, batch:400 utterances> 
+2020-02-27 12:14:07 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:600, lr:1.563e-05, loss:-16.412, batch:600 utterances> 
+2020-02-27 12:16:18 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:800, lr:1.563e-05, loss:-16.395, batch:800 utterances> 
+2020-02-27 12:18:29 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:1000, lr:1.563e-05, loss:-16.334, batch:1000 utterances> 
+2020-02-27 12:20:40 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 78, iter:1200, lr:1.563e-05, loss:-16.389, batch:1200 utterances> 
+2020-02-27 12:22:40 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 78, lr:1.563e-05, loss:-16.375, Total time:15.154 min> 
+2020-02-27 12:22:40 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 12:23:23 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 78, iter:200, lr:1.563e-05, loss:-15.198, batch:200 utterances> 
+2020-02-27 12:23:55 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 78, lr:1.563e-05, loss:-15.104, Total time:1.242 min> 
+2020-02-27 12:23:55 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.1168
+2020-02-27 12:24:00 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
+2020-02-27 12:26:13 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:200, lr:1.563e-05, loss:-16.397, batch:200 utterances> 
+2020-02-27 12:28:23 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:400, lr:1.563e-05, loss:-16.396, batch:400 utterances> 
+2020-02-27 12:30:35 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:600, lr:1.563e-05, loss:-16.365, batch:600 utterances> 
+2020-02-27 12:32:45 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:800, lr:1.563e-05, loss:-16.334, batch:800 utterances> 
+2020-02-27 12:34:55 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:1000, lr:1.563e-05, loss:-16.392, batch:1000 utterances> 
+2020-02-27 12:37:06 [/home/likai/data1/Conv-TasNet/trainer.py:183 - INFO ] <epoch: 79, iter:1200, lr:1.563e-05, loss:-16.352, batch:1200 utterances> 
+2020-02-27 12:39:06 [/home/likai/data1/Conv-TasNet/trainer.py:187 - INFO ] <epoch: 79, lr:1.563e-05, loss:-16.372, Total time:15.107 min> 
+2020-02-27 12:39:06 [/home/likai/data1/Conv-TasNet/trainer.py:194 - INFO ] Validation model ......
+2020-02-27 12:39:50 [/home/likai/data1/Conv-TasNet/trainer.py:210 - INFO ] <epoch: 79, iter:200, lr:1.563e-05, loss:-15.102, batch:200 utterances> 
+2020-02-27 12:40:21 [/home/likai/data1/Conv-TasNet/trainer.py:214 - INFO ] <epoch: 79, lr:1.563e-05, loss:-15.100, Total time:1.244 min> 
+2020-02-27 12:40:21 [/home/likai/data1/Conv-TasNet/trainer.py:241 - INFO ] no improvement, best loss: -15.1168
+2020-02-27 12:40:27 [/home/likai/data1/Conv-TasNet/trainer.py:164 - INFO ] Training model ......
