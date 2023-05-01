@@ -1,0 +1,2 @@
+- the tools for create the dataset (wsj0)
+- the script to read the file
