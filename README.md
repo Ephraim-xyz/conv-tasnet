@@ -6,7 +6,7 @@ https://catalog.ldc.upenn.edu/LDC93s6a (free one in the kaggle)
 2. TIMI and libri2mix dataset can replace the dataset wsj0.
 
 # preprocessing the data:
-1. convert the dataset from .wv1 form to .wav form, in order to use the torchaudio to read
+1. convert the dataset from .wv1 form to .wav form, in order to use the torchaudio to read， see the file sph2pipe_v2.5.tar.gz
 2. See the tools_for_dataset folder I uploaded, it contains the audio mixture method with both python and matlab
 3. Generate scp file to read the file path by using script file of create_scp.py
 
