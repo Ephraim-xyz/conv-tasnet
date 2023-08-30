@@ -33,3 +33,9 @@ https://docs.google.com/presentation/d/1nrX5GsaZ-AoUcMKAukDBb2ufFqr6Va_z/edit?us
 1. First of all, depending on different scenars， conv-tasnet also has the ability to separate audio in noisy environment and do speech enhancement. However, we can see  wsj0 is a clean dataset(without any noise), if we straightly use it to separate some blindsource with lots of noise, the result will be bad, because the generalization ability of noise environment for this model is not good. In this case, I also found a dataset called "wham", which is a pure noise dataset. If necessary, I can mix it with the wsj0 dataset and retrain the model.
 2. Currently, the model is single-channel separation, I am still trying to make multi-channel on this model.
 3. Though conv-tasnet is a great one among several separation models, there still had some new models released recent years, the performance will be better. So if conv-tasnet in realworld scenarios cannot be satisfied, I will do more research on other new one.
+
+# reference
+the paper for conv-tasnet: https://arxiv.org/abs/1809.07454
+the model reference: https://github.com/JusperLee/Conv-TasNet
+
+
