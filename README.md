@@ -35,7 +35,8 @@ https://docs.google.com/presentation/d/1nrX5GsaZ-AoUcMKAukDBb2ufFqr6Va_z/edit?us
 3. Though conv-tasnet is a great one among several separation models, there still had some new models released recent years, the performance will be better. So if conv-tasnet in realworld scenarios cannot be satisfied, I will do more research on other new one.
 
 # reference
-the paper for conv-tasnet: https://arxiv.org/abs/1809.07454
-the model reference: https://github.com/JusperLee/Conv-TasNet
+the paper for conv-tasnet: https://arxiv.org/abs/1809.07454.
+
+the model reference: https://github.com/JusperLee/Conv-TasNet.
 
 
